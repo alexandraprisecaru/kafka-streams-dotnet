@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "Country",
+  "namespace": "avro.bean",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "currency",
+      "type": "string"
+    },
+    {
+      "name": "PIB",
+      "type": "float"
+    }
+  ]
+}

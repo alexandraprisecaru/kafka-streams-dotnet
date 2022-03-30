@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "Person",
+  "namespace": "avro.bean",
+  "fields": [
+    {
+      "name": "country_id",
+      "type": "int"
+    },
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    }
+  ]
+}
